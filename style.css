@@ -1,0 +1,67 @@
+.header{
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+body{
+    background-image: url(images/back.jpg);
+    background-size: 100%;
+}
+.mainGame{
+    display: flex;
+}
+.marks{
+    margin-left: 700px;
+}
+#btn{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: greenyellow;
+}
+#btn:hover{
+    background-color: rgb(117, 175, 30);
+}
+.totalTitle{
+    color: aliceblue;
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 33px;
+}
+#total{
+    color: aliceblue;
+    margin-left: 160px;
+    font-size: 50px;
+}
+#result{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: white 3px solid;
+    background-color: aliceblue;
+}
+#btn-res{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+
+    display: none;
+    margin-top: 5px;
+    background-color: red;
+}
+#btn-res:hover{
+    background-color:rgb(164, 0, 0);
+}
+img{
+    margin-left: 10px;
+}
